@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Akira-expanded';
+    src: url(Akira\ Super\ Bold.ttf);
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    /* font-size: 3rem; */
+    font-family: 'Akira-expanded', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.page-padding {
+    padding: 5rem 3rem;
+}
+
+.top-margin {
+    margin-top: 10%;
+}
+
+.bt-margin {
+    margin-bottom: 6rem;
+}
+
+span {
+    color: #1877F2;
+}
+
+/* navbar */
+.navbar {
+    padding: 1rem !important;
+    transition: all 0.5s;
+}
+
+#nav.scrollUp {
+    transform: translateY(-120px);
+}
+
+.nav-logo {
+    width: 80%;
+}
+
+.nav-item {
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    font-family: 'Archivo Black', sans-serif !important;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+    font-weight: bold;
+    width: 10%;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.dropdown-menu {
+    margin-top: 0.9rem !important;
+}
+
+.d-flex {
+    padding: 1rem;
+}
+
+/* sponsors img */
+.sponsors-div {
+    display: inline-block;
+    row-gap: 5rem;
+}
+
+
+.sponsor-img {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+td{
+    position: relative;
+}
+
+.border {
+    border: 4px solid rgba(128, 128, 128, 0.575);
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+}

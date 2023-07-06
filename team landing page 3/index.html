@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4ZERacing</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/95f46a2e1e.js" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css ">
+
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+                <img src="images/logo 2.png" class="nav-logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-end" data-bs-theme="dark">
+                            <li>
+                                <a class="dropdown-item d-flex gap-2 align-items-center" href="about.html">
+                                    <i class="fa-solid fa-wrench" style="color: #ffffff;"></i>
+                                    Our work
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex gap-2 align-items-center"
+                                    href="https://www.srmist.edu.in/">
+                                    <i class="fa-solid fa-building-columns" style="color: #ffffff;"></i>
+                                    Our University
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex gap-2 align-items-center"
+                                    href="https://www.srmist.edu.in/department/department-of-automobile-engineering/">
+                                    <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                                    Dept. of Automobile Engg
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex gap-2 align-items-center" href="about.html">
+                                    <i class="fa-solid fa-medal" style="color: #ffffff;"></i>
+                                    Competitions
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sponsors.html">Sponsors</a>
+                    </li>
+
+                   <li class="nav-item dropdown">
+						     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cars</a>
+
+								<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" data-bs-theme="dark" >
+									<li>
+										<a class="dropdown-item d-flex gap-2 align-items-center" href="rio.html">
+											<i class="fa-sharp fa-solid fa-car" style="color: #ffffff;"></i>
+											Rio 2013
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item d-flex gap-2 align-items-center"
+											href="voltaic.html">
+											<i class="fa-sharp fa-solid fa-car " style="color: #ffffff;"></i>
+											Voltaic 2015
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item d-flex gap-2 align-items-center"
+											href="zev2.html">
+											<i class="fa-sharp fa-solid fa-car" style="color: #ffffff;"></i>
+											Zev 2.0
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item d-flex gap-2 align-items-center" href="zev3.html">
+											<i class="fa-sharp fa-solid fa-car " style="color: #ffffff;"></i>
+											Zev 3.0
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item d-flex gap-2 align-items-center" href="zevMan.html">
+											<i class="fa-sharp fa-solid fa-car " style="color: #ffffff;"></i>
+											Zev Manectric
+										</a>
+									</li>
+								</ul>
+					  </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="brochure.html" target="_blank">Brochure</a>
+                    </li>
+                   <li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+						   aria-expanded="false">Teams</a>
+
+						<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" data-bs-theme="dark">
+					            <li>
+								    <a class="dropdown-item d-flex gap-2 align-items-center" href="team1.html">
+									<i class="fa-solid fa-user-group" style="color: #ffffff;"></i>
+									Team 2020 - Present
+								    </a>
+							    </li>
+							<li>
+								<a class="dropdown-item d-flex gap-2 align-items-center"
+									href="team2.html">
+									<i class="fa-solid fa-user-group" style="color: #ffffff;"></i>
+									Team 2019
+								</a>
+							</li>
+							<li>
+								<a class="dropdown-item d-flex gap-2 align-items-center"
+									href="team3.html">
+									<i class="fa-solid fa-user-group" style="color: #ffffff;"></i>
+									Team 2017
+								</a>
+							</li>
+							<li>
+								<a class="dropdown-item d-flex gap-2 align-items-center" href="team4.html">
+									<i class="fa-solid fa-user-group" style="color: #ffffff;"></i>
+									Team 2016
+								</a>
+							</li>
+							<li>
+								<a class="dropdown-item d-flex gap-2 align-items-center" href="team5.html">
+									<i class="fa-solid fa-user-group" style="color: #ffffff;"></i>
+									Team 2015
+								</a>
+							</li>
+						</ul>
+
+
+
+
+
+					</li>
+
+                </ul>
+            </div>
+            <a class="navbar-brand " href="https://www.srmist.edu.in/">
+                <img src="images/SRM-logo.png" class="nav-logo" alt="SRM logo">
+            </a>
+        </div>
+    </nav>
+
+    <section class="bt-margin top-margin ">
+        <div id="anim">
+            <h1 id="landing-txt"> <span>FORMULA</span> STUDENT ELECTRIC</h1>
+            <video class="landing-vid " src="images/Car-rot 2.mp4" playsinline muted ></video>
+        </div>
+    </section>
+
+
+    <section id="endhere">
+        <div class="page-padding ">
+            <div>
+                <div class="about-us" id="Home">
+                    <h1 class="text" id="s1">
+                        ABOUT US
+                    </h1>
+                    <div class="row">
+                        <div class="col-md-6" id="s2">
+                            <p class="abtustxt">
+                                We are 4ZE Racing, the official student formula electric racing team of SRM University,
+                                based in SRM IST, Chennai. Our team consists of 60 highly dedicated and passionate
+                                undergraduate students whose main passion lies in engineering and achieving new
+                                possibilities. We specialize in making electric race cars for the International Formula
+                                Student/Formula SAE competition held at various locations worldwide. The word '4ze'
+                                represents our commitment to zero emissions and a sustainable environment. Our team is
+                                completely student-managed, with three domains—Mechanical, Electrical, and
+                                Corporate—working together to ensure our car competes at a global level, focusing on
+                                energy efficiency and innovation.
+                            </p>
+
+                        </div>
+                        <div class="col-md-6" id="s3">
+                            <img src="images/aboutus-img.png" class="abtusimg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="page-padding">
+        <div class="text bt-margin">
+            <h1>PREVIOUS SPONSORS</h1>
+        </div>
+        <div class="sponsors row">
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.ansys.com/en-in" class="card credentialing">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="27 21 64 72" src="images/sponsors/ansys.jpg" alt="Ansys" class="sponsorimg1">
+                        <g id="Group-12" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(27.000000, 21.000000)">
+                            <g id="Group-5">
+                                <g id="Group-3" transform="translate(2.262327, 21.615176)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Clip-2"></g>
+                                    <path
+                                        d="M7.17774177,18.4748913 L54.3387782,18.4748913 C57.9910226,18.4748913 60.9789911,15.7266455 60.9789911,12.3681986 L60.9789911,6.13665655 C60.9789911,2.77820965 57.9910226,0.0299638385 54.3387782,0.0299638385 L7.17774177,0.0299638385 C3.52634582,0.0299638385 0.538377293,2.77820965 0.538377293,6.13665655 L0.538377293,12.3681986 C0.538377293,15.7266455 3.52634582,18.4748913 7.17774177,18.4748913"
+                                        id="Fill-1" fill="#59A785" mask="url(#mask-2)"></path>
+                                </g>
+                                <polygon id="Fill-4" fill="#FFFFFF"
+                                    transform="translate(31.785111, 30.877531) rotate(-2.000000) translate(-31.785111, -30.877531) "
+                                    points="62.0618351 55.9613216 7.2111488 60.3692832 1.50838775 5.79374073 56.3582257 1.38577917">
+                                </polygon>
+                                <ellipse id="Oval-3" fill="#25D48A" opacity="0.216243004" cx="30.0584472"
+                                    cy="21.7657707" rx="9.95169733" ry="9.17325562"></ellipse>
+                                <g id="Group-4" transform="translate(16.959615, 6.479082)" fill="#54C796">
+                                    <polygon id="Fill-6"
+                                        points="10.7955395 21.7823628 0.11873799 11.3001058 4.25482787 7.73131106 11.0226557 14.3753897 27.414824 1.77635684e-15 31.3261391 3.77891399">
+                                    </polygon>
+                                </g>
+                                <path
+                                    d="M4.82347935,67.4368303 L61.2182039,67.4368303 C62.3304205,67.4368303 63.2407243,66.5995595 63.2407243,65.5765753 L63.2407243,31.3865871 C63.2407243,30.3636029 62.3304205,29.5263321 61.2182039,29.5263321 L4.82347935,29.5263321 C3.71126278,29.5263321 2.80095891,30.3636029 2.80095891,31.3865871 L2.80095891,65.5765753 C2.80095891,66.5995595 3.71126278,67.4368303 4.82347935,67.4368303"
+                                    id="Fill-8" fill="#59B08B"></path>
+                                <path
+                                    d="M33.3338063,67.4368303 L61.2181191,67.4368303 C62.3303356,67.4368303 63.2406395,66.5995595 63.2406395,65.5765753 L63.2406395,31.3865871 C63.2406395,30.3636029 62.3303356,29.5263321 61.2181191,29.5263321 L33.3338063,29.5263321 C32.2215897,29.5263321 31.3112859,30.3636029 31.3112859,31.3865871 L31.3112859,65.5765753 C31.3112859,66.5995595 32.2215897,67.4368303 33.3338063,67.4368303"
+                                    id="Fill-10" fill="#4FC391"></path>
+                                <path
+                                    d="M29.4284029,33.2640869 C29.4284029,34.2202068 30.2712569,34.9954393 31.3107768,34.9954393 C32.3502968,34.9954393 33.1931508,34.2202068 33.1931508,33.2640869 C33.1931508,32.3079669 32.3502968,31.5327345 31.3107768,31.5327345 C30.2712569,31.5327345 29.4284029,32.3079669 29.4284029,33.2640869"
+                                    id="Fill-15" fill="#FEFEFE"></path>
+                                <path
+                                    d="M8.45417501,71.5549073 L57.5876779,71.5549073 C60.6969637,71.5549073 63.2412334,69.2147627 63.2412334,66.3549328 L63.2412334,66.3549328 C63.2412334,63.4951029 60.6969637,61.1549584 57.5876779,61.1549584 L8.45417501,61.1549584 C5.34488919,61.1549584 2.80061956,63.4951029 2.80061956,66.3549328 L2.80061956,66.3549328 C2.80061956,69.2147627 5.34488919,71.5549073 8.45417501,71.5549073"
+                                    id="Fill-12" fill="#5BD6A2"></path>
+                            </g>
+                        </g>
+                        </svg>
+                    </div>
+                </a>
+                <h5 class="text">Ansys</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/star-ccm/"
+                    class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/apdapko.png" alt="CD-Adapko"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">CD-Adapko</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.continental.com/en/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/continent.png" alt="Continental"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Continental</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.coroplast.com/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/coroplast (1).png" alt="Coroplast"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Coroplast</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.garwarefibres.com/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/garware.png" alt="Garware"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Garware</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.ipetronik.com/en/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/ipe.png" alt="IPETRONIK" class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+                    </div>
+                </a>
+                <h5 class="text">IPETRONIK</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://ipg-automotive.com/en/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/ipg.png" alt="IPG Automotive"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">IPG Automotive</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.kirloskar.com/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/kirloskar.png" alt="Kirloskar"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+                    </div>
+                </a>
+                <h5 class="text">Kirloskar</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.linkedin.com/company/pankaj-potentiometers---india/about/"
+                    class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/pankaj.png" alt="Pankaj" class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Pankaj</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://protocentral.com/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/proto.png" alt="Proto" class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Proto</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.quaife.co.uk/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/quaife.png" alt="Quaife" class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Quaife</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.scolarianracing.com/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/scolarian-removebg-preview.png"
+                            alt="Scolarian Racing" class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+                    </div>
+                </a>
+                <h5 class="text">Scolarian Racing</h5>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-4">
+                <a href="https://www.wilwood.com/" class="card human-resources">
+                    <div class="overlay"></div>
+                    <div class="circle">
+                        <img viewBox="1855 26 66 77" src="images/sponsors/willwood.png" alt="Wilwood"
+                            class="sponsorimg2">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                            transform="translate(1855.000000, 26.000000)">
+                            <path
+                                d="M4.28872448,42.7464904 C4.28872448,39.3309774 5.4159227,33.7621426 6.40576697,30.4912557 C10.5920767,32.1098991 14.3021264,35.1207513 18.69596,35.1207513 C30.993618,35.1207513 42.5761396,28.7162991 49.9992251,17.9014817 C56.8027248,23.8881252 60.8188351,33.0463165 60.8188351,42.7464904 C60.8188351,60.817447 47.6104607,76.6693426 32.5537798,76.6693426 C17.4970989,76.6693426 4.28872448,60.817447 4.28872448,42.7464904"
+                                id="Fill-8" fill="#AFCEFF"></path>
+                            <path
+                                d="M64.3368879,31.1832696 L62.8424171,46.6027478 L60.6432609,46.7824348 L59.8340669,34.6791304 L47.6573402,25.3339478 C44.2906753,34.068487 34.3459503,40.2903304 24.4684093,40.2903304 C17.7559812,40.2903304 10.046244,37.4168 5.80469412,32.8004522 L5.80469412,34.6791304 L5.80469412,46.6027478 L4.28932167,46.6027478 L1.30187314,27.8802435 C1.30187314,20.9790957 3.52342407,15.5432 7.27229127,11.3578087 C13.132229,4.79558261 21.8124018,0.0492173913 30.5672235,0.342852174 C37.4603019,0.569286957 42.6678084,2.72991304 50.8299179,0.342852174 C51.4629405,1.44434783 51.8615656,3.00455652 51.5868577,5.22507826 C51.4629405,6.88316522 51.2106273,7.52302609 50.8299179,8.45067826 C58.685967,14.1977391 64.3368879,20.7073739 64.3368879,31.1832696"
+                                id="Fill-10" fill="#3B6CB7"></path>
+                            <path
+                                d="M58.9405197,54.5582052 C62.0742801,54.8270052 65.3603242,52.60064 65.6350321,49.5386574 C65.772386,48.009127 65.2617876,46.5570226 64.3182257,45.4584487 C63.3761567,44.3613357 62.0205329,43.6162922 60.4529062,43.4818922 L58.9405197,54.5582052 Z"
+                                id="Fill-13" fill="#568ADC"></path>
+                            <path
+                                d="M6.32350389,54.675367 C3.18227865,54.8492104 0.484467804,52.4957496 0.306803449,49.4264626 C0.217224782,47.8925496 0.775598471,46.4579757 1.75200594,45.3886191 C2.7284134,44.3192626 4.10792487,43.6165843 5.67853749,43.530393 L6.32350389,54.675367 Z"
+                                id="Fill-15" fill="#568ADC"></path>
+                        </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <h5 class="text">Wilwood</h5>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-padding">
+        <div class="text bt-margin">
+            <h1>CHECK THESE OUT</h1>
+        </div>
+        <div class="row cards">
+            <div class="maincontainer col-md-4">
+                <div class="back-card">
+                    <h2>4ZE Racing</h2>
+                    <p>Our team 4ZE Racing was established in 2012 by a group of students
+                        from SRM University who wanted to design an electric vehicle. “4ZE”
+                        stands for “For Zero Emission”. We are the official Formula student
+                        electric team of SRM Institute of Science and Technology.
+                        The team aims to achieve this target through development of an
+                        innovative and collabrotive environment.</p>
+                </div>
+                <div class="front-card">
+                    <div>
+                        <img src="images/The_trophy2.jpg " class="cardimage" alt="">
+                        <h2>4ZE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="maincontainer col-md-4">
+                <div class="back-card">
+                    <h2>Our Department</h2>
+                    <p> The Department of Automobile Engineering at SRMIST, KTR Campus, established in 2004, strives for
+                        international recognition. In 18 years, we've excelled in teaching and research, offering
+                        industry-connected undergraduate and postgraduate programs that focus on technical expertise,
+                        problem-solving, and innovation.</p>
+                </div>
+                <div class="front-card">
+                    <div class="image">
+                        <img src="images/Mech.jpg " class="cardimage" alt="">
+                        <h2>Department of Automobile engineering</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="maincontainer col-md-4">
+                <div class="back-card">
+                    <h2>SRM Institute</h2>
+                    <p>
+                        SRM Institute of Science and Technology (formerly known as SRM
+                        University) is one of the top ranking universities in India with over
+                        38,000 students and more than 2600 faculty across all the campus.
+                        Today our university boasts on producing
+                        brightest minds in country and is being epicentre for technology
+                        advancements in our country.
+                    </p>
+                </div>
+                <div class="front-card">
+                    <div>
+                        <img src="images/srm-ub.webp" class="cardimage" alt="">
+                        <h2>SRM Institute</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="page-padding">
+        <div class="text bt-margin">
+            <h2>Meet the</h2>
+            <h1>EXPERTS</h1>
+        </div>
+        <div id="cubes">
+            <div class="cube p2">
+                <div class="name">
+                    <h1>Jessica</h1>
+                    <p>Community Manager</p>
+                </div>
+                <div class="innerBorder"></div>
+                <div class="darken"></div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook-square" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-hashtag" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cube p1">
+                <div class="name">
+                    <h1>Aditya</h1>
+                    <p>Community Manager</p>
+                </div>
+                <div class="innerBorder"></div>
+                <div class="darken"></div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook-square" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-hashtag" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cube p3">
+                <div class="name">
+                    <h1>Kshitij</h1>
+                    <p>Team Captain</p>
+                </div>
+                <div class="innerBorder"></div>
+                <div class="darken"></div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook-square" style="color: #ffffff; width: 100%;"></i></a>
+                        </li>
+                        <li><a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-hashtag" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="top-padding">
+        <div class="text bt-margin2">
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="row contact-us">
+            <div class="col-md-4 ft-logo-div">
+                <img src="images/logo 2.png" class="footer-img" alt="">
+            </div>
+
+            <div class="col-md-8 ft-section">
+                <div class="col-md-4 text contact-div">
+                    <h2>Have any Query? Send us a Message!</h2>
+                </div>
+                <div class="col-md-6 contact-div mail">
+                    <a href="mailto:4zeracing.srmist@gmail.com" class="zoomtxt btn-grid">
+                        <span class="front" title="Click Me!">Write Us</span>
+                    </a>
+                    <a href="contact.html" class="zoomtxt btn-grid">
+                        <span class="front" title="Click Me!">Contact Us</span>
+                    </a>
+                </div>
+                <footer class="text">
+                    Connect with us for the latest updates!
+                </footer>
+                <ul class="wrapper">
+                    <a href="https://www.facebook.com/4zeracing/" target="_blank">
+                        <li class="icon facebook">
+                            <span class="tooltip">Facebook</span>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </li>
+                    </a>
+                    <a href="https://www.instagram.com/4zeracing_srm/?hl=en" target="_blank">
+                        <li class="icon instagram">
+                            <span class="tooltip">Instagram</span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </li>
+                    </a>
+                    <a href="https://www.linkedin.com/company/4zeracing/" target="_blank">
+                        <li class="icon linkedin">
+                            <span class="tooltip">LinkedIn</span>
+                            <span><i class="fab fa-brands fa-linkedin"></i></span>
+                        </li>
+                    </a>
+                </ul>
+                <div class="footer-txt">
+                    <footer class="text">
+                        ©
+                        <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+                    </footer>
+                    <footer>
+                        <a href="terms.html" class="tnC">Terms and Conditions</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js"
+        integrity="sha512-mq6TSOBEH8eoYFBvyDQOQf63xgTeAk7ps+MHGLWZ6Byz0BqQzrP+3GIgYL+KvLaWgpL8XgDVbIRYQeLa3Vqu6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script>$(document).ready(function () {
+            'use strict';
+
+            var c, currentScrollTop = 0,
+                navbar = $('nav');
+
+            $(window).scroll(function () {
+                var a = $(window).scrollTop();
+                var b = navbar.height();
+
+                currentScrollTop = a;
+
+                if (c < currentScrollTop && a > b + b) {
+                    navbar.addClass("scrollUp");
+                } else if (c > currentScrollTop && !(a <= b)) {
+                    navbar.removeClass("scrollUp");
+                }
+                c = currentScrollTop;
+
+            });
+
+        });</script>
+
+</body>
+
+</html>

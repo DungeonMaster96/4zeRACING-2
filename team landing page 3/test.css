@@ -1,0 +1,20 @@
+.navbar {
+    padding: 1rem !important;
+    transition: all 0.5s;
+    color: #000;
+  }
+  
+  #nav.scrollUp {
+    transform: translateY(-120px);
+  }
+  
+  .nav-logo{
+    width: 80%;
+  }
+  
+  
+  .nav-item {
+    margin-right: 3rem;
+    font-size: 1.1rem;
+    font-family: 'Archivo Black', sans-serif !important;
+  }
